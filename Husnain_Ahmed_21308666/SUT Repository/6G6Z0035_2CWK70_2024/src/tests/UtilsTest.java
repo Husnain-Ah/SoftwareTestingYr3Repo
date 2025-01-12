@@ -416,7 +416,7 @@ class UtilsTest {
                 "'xxx', 'Alpha'",
                 "'xxx', 'xxx'"
         })
-        void Utils_CompareGenerations_AllValidGenerations_ReturnsZero(String generation1, String generation2) {
+        void Utils_CompareGenerations_InvalidGenerations_ReturnsZero(String generation1, String generation2) {
 
             int Result = Utils.compareGenerations(generation1, generation2); // for debugging
 

@@ -85,7 +85,7 @@ class HistoricTest {
         double ExpectedplasticGlass;
         double Expectedmetallic;
 
-        if (initialWaste >= 1250) { // Metallic threshold is 1250
+        if (initialWaste > 1250) { // Metallic threshold is 1250
             ExpectedplasticGlass = initialWaste * 0.3; // Plastic/Glass waste should be 30% of the initial waste
             Expectedmetallic = initialWaste * 0.2; // Metallic waste should be 20% of the initial waste
         } else {

@@ -33,7 +33,7 @@ public enum Location {
         {
             return 3.0;
         }
-        return 0.0; //same location    :    this is a defect memorandum says 1hr for return so it shoulf be 0.5 one way
+        return 0.0; //same location    :    this is a defect memorandum says 1hr for return
     }
 
     static boolean ab(Location from, Location to)
